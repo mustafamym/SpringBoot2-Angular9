@@ -1,6 +1,4 @@
-# Spring-boot-Angular-9
-
-# JWT Authentication With Spring Boot 2 and Angular 8
+# Spring Boot 2.2.6 and Angular 9
 
 # Use Technologies below:
 
