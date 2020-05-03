@@ -84,11 +84,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Springboot angular o-level diagram
  
-![angular Spring](/ScreenshotImage/angularSpring.jpg)
+![angular Spring](/img/angularSpring.jpg)
 
 ## jwt authentication o-level diagram
 
-![angular Spring](/ScreenshotImage/jwt-architecture-diagram.png)
+![angular Spring](/img/jwt-architecture-diagram.png)
 
 
 # Spring Security and JWT Configuration
