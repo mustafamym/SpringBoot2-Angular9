@@ -16,7 +16,7 @@ Spring Data
 
 Hibernate 5 + JPA 2
 
-H2 Or Mysql Database 
+Postgresql
 
 Liquibase
 
@@ -101,12 +101,12 @@ Validating JWT: If a user tries to access the GET API with mapping /hello, it wi
 
 # Generating JWT
 
-![angular Spring](/ScreenshotImage/GeneratingJWT.JPG)
+![angular Spring](/img/GeneratingJWT.JPG)
 
-![angular Spring](/ScreenshotImage/GeneratingJWT1.JPG)
+![angular Spring](/img/GeneratingJWT1.JPG)
 
 # Validating JWT
-![angular Spring](/ScreenshotImage/ValidatingJWT.JPG)
+![angular Spring](/img/ValidatingJWT.JPG)
 
 
 # project screenshoot
@@ -114,4 +114,4 @@ Validating JWT: If a user tries to access the GET API with mapping /hello, it wi
 ## home page
 
 
-![angular home](/ScreenshotImage/projecthome.png)
+![angular home](/img/projecthome.png)
