@@ -113,4 +113,5 @@ Validating JWT: If a user tries to access the GET API with mapping /hello, it wi
 
 ## home page
 
+
 ![angular home](/ScreenshotImage/projecthome.png)
