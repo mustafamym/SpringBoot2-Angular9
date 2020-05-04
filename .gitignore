@@ -1,1 +1,4 @@
 /angular9/node_modules/
+/springboot2-api-server/.idea/
+/springboot2-api-server/target/
+/springboot2-api-server/springboot2-api-server.iml
