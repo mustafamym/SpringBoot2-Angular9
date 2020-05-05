@@ -1,9 +1,9 @@
-package com.springboot2.api.service;
+package com.springboot2.api.employee.service;
+
+import com.springboot2.api.employee.domain.Employee;
 
 import java.util.List;
 import java.util.Optional;
-
-import com.springboot2.api.entity.Employee;
 
 public interface EmployeeService {
 	

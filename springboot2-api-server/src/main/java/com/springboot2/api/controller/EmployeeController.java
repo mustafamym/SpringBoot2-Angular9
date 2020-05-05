@@ -4,12 +4,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-
 import javax.validation.Valid;
-
-import com.springboot2.api.model.EmployeeDTO;
-import com.springboot2.api.entity.Employee;
-import com.springboot2.api.service.EmployeeService;
+import com.springboot2.api.employee.domain.Employee;
+import com.springboot2.api.employee.model.EmployeeDTO;
+import com.springboot2.api.employee.service.EmployeeService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

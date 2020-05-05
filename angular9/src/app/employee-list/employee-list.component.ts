@@ -1,9 +1,9 @@
 import { EmployeeDetailsComponent } from './../employee-details/employee-details.component';
-import { Observable } from "rxjs";
-import { EmployeeService } from "./../employee.service";
-import { Employee } from "./../employee";
 import { Component, OnInit } from "@angular/core";
 import { Router } from '@angular/router';
+import {Observable} from 'rxjs';
+import {Employee} from '../_models/employee';
+import {EmployeeService} from '../employee/employee.service';
 
 @Component({
   selector: "app-employee-list",

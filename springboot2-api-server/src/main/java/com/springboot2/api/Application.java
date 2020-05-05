@@ -1,7 +1,8 @@
 package com.springboot2.api;
 
-import com.springboot2.api.entity.Employee;
-import com.springboot2.api.repository.EmployeeRepository;
+
+import com.springboot2.api.employee.domain.Employee;
+import com.springboot2.api.employee.repository.EmployeeRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

@@ -1,4 +1,4 @@
-package com.springboot2.api.model;
+package com.springboot2.api.employee.model;
 
 import java.io.Serializable;
 

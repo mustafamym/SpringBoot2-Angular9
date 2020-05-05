@@ -1,13 +1,13 @@
-package com.springboot2.api.service;
+package com.springboot2.api.employee.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.springboot2.api.entity.Employee;
+import com.springboot2.api.employee.domain.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.springboot2.api.repository.EmployeeRepository;
+import com.springboot2.api.employee.repository.EmployeeRepository;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService{
