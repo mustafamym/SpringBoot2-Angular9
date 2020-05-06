@@ -11,14 +11,7 @@ import javax.validation.constraints.Size;
 import org.hibernate.annotations.NaturalId;
 
 @Entity
-@Table(name = "users", uniqueConstraints = {
-        @UniqueConstraint(columnNames = {
-            "username"
-        }),
-        @UniqueConstraint(columnNames = {
-            "email"
-        })
-})
+@Table(name = "users")
 public class User{
 
     private static final long serialVersionUID = 1L;
@@ -27,18 +20,22 @@ public class User{
     @Basic(optional = false)
     @Column(name = "id")
     private Long id;
-    @NotBlank
-    @Size(min=3, max = 50)
-    private String name;
 
     @NotBlank
     @Size(min=3, max = 50)
+    @Column(name = "first_name")
+    private String firstName;
+
+    @NotBlank
+    @Size(min=3, max = 50)
+    @Column(name = "last_name")
+    private String lastName;
+
+    @NotBlank
+    @Size(min=3, max = 50)
+    @Column(name = "username" , unique=true)
     private String username;
 
-    @NaturalId
-    @NotBlank
-    @Size(max = 50)
-    @Email
     private String email;
 
     @NotBlank
@@ -51,15 +48,6 @@ public class User{
     	inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles = new HashSet<>();
 
-    public User() {}
-
-    public User(String name, String username, String email, String password) {
-        this.name = name;
-        this.username = username;
-        this.email = email;
-        this.password = password;
-    }
-
     public Long getId() {
         return id;
     }
@@ -68,20 +56,28 @@ public class User{
         this.id = id;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
     public String getUsername() {
         return username;
     }
 
     public void setUsername(String username) {
         this.username = username;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getEmail() {
